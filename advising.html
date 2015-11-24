@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>GC CCS ADVISING</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<style>
+..clickable{
+background:red;
+}
+</style>
+</head>
+<body class="advising">
+<div id="wrapper" class="">
+
+		
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand  ">
+                    <a id="studentID">
+                        ID
+                    </a>
+                </li>
+               <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li >
+                    <a href="stats.html">My Stats</a>
+                </li>
+                <li>
+                    <a href="prospectus.html">My Prospectus</a>
+                </li>
+                
+                <li class="selected advising">
+                    <a href="advising.html">Advising</a>
+                </li>
+                <li>
+                    <a id="scriptLogOut">Log out</a>
+                </li>
+              
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+		<nav class="navbar top ">
+	
+				<div class="container-fluid">
+				<button id="btnToggle" type="button" class="btn btn-default" style="margin-left:0px;margin-top:8px;margin-bottom:8px;padding:10px 15px 10px 15px;background-color:#ffffff" aria-label="Justify" style="position:relative"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></button>
+				 
+			   </div>
+		</nav>
+		
+		
+        <!-- Page Content -->
+	
+        <div id="page-content-wrapper">
+            
+           <div class="panel panel-default ">
+                        <div class="panel-heading panel-default">
+							<h3><center>Select Year/Sem</center></h3>
+	                    </div>
+						<div class="panel-body">
+						<div><center>
+						<div class="btn-group" style="">
+							  <button type="button" class="btn btn-success" id="lblYear">Year</button>
+							  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+								<span class="sr-only">Toggle Dropdown</span>
+							  </button>
+							  <ul class="dropdown-menu" id="chooseYear">
+									<li><a href="#" class="list">1st Year</a></li>
+									<li><a href="#" class="list">2nd Year</a></li>
+									<li><a href="#" class="list">3rd Year</a></li>
+									<li><a href="#"class="list">4th Year</a></li>
+							  </ul>
+						</div>
+						<div class="btn-group" style="">
+							  <button type="button" class="btn btn-success" id="lblSem">Semester</button>
+							  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+								<span class="sr-only" >Toggle Dropdown</span>
+							  </button>
+							  <ul class="dropdown-menu semester" id="chooseSem">
+									<li><a href="#" class="list">1st Sem</a></li>
+									<li><a href="#"class="list">2nd Sem</a></li>
+									<li><a href="#"class="list">Summer</a></li>
+							  </ul>
+							  
+						</div>
+							<button type="button" class="btn btn-success" id="btnSubmit">Submit</button>
+						</div>
+								</center>
+						</div>
+                        <!-- /.panel-body -->
+						
+						</div>
+						<!--Subjects  NOT Taken-->
+						<div class="panel panel-success" style="position:relative">
+							  <!-- Default panel contents -->
+							  
+							  <div class="panel-heading panel-success"><h3><center>ENLISTMENT</center></h3>
+						
+							  </div>
+										<div class="panel-body">
+								  <!-- Table -->
+								  
+											<div class="well col-xs-12 col-xs-offset-0 " style="background-color:white;border:white">
+												 <div class="btn-group">
+							  <strong><i>Preffered Time:</span>  </i><strong><div class="btn-group" style="">
+							  <button type="button" class="btn btn-default" id="lblTime"><strong>Select</strong></button>
+							  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+								<span class="sr-only">Toggle Dropdown</span>
+							  </button>
+							  <ul class="dropdown-menu" id="preferredTime">
+									<li><a href="#" class="list">Morning</a></li>
+									<li><a href="#" class="list">Afternoon</a></li>
+									<li><a href="#" class="list">Evening</a></li>
+
+							  </ul>
+							  
+						</div>
+						
+							</div>
+										<br><br>	<div>
+												<table  id="prospectus"class="table">
+													<thead>
+													<tr><th>TITLE</thead>
+													<tbody id="prospectus-body">
+												</table>
+											</div>
+											<button class="btn btn-success" style="width:100%"  id="btnEnlist">Enlist</button>
+											</div>
+									
+		
+						
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+	
+	
+	</body>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+	var x,y,id;
+	$(function(){
+	$('#studentID').html(localStorage.getItem('Username'))
+	id=localStorage.getItem('Username');
+	})
+
+    $("#btnToggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+
+		$('a.list').click(function(e){
+		e.preventDefault();
+		});
+		<!--get year and sem 
+		$('#chooseYear li a').click(function() {
+			x =$(this).text();
+			$('#lblYear').html(x);
+		});	
+		$('#chooseSem li a').click(function() {
+				y =$(this).text();
+				$('#lblSem').html(y);
+		});	
+	$('#btnSubmit').click(function(){
+	$.ajax({
+	type:'POST',
+	url:'http://gcccs.org/ccsadvising/showAdvising.php',
+	dataType:'JSON',
+	data:{year:x,sem:y,id:localStorage.getItem('Username')},
+	success: function(data){
+	if(data.SUBJECTS.length<1){
+	alert('Zero Results');
+	}
+		if(data.SUBJECTS.length==undefined){
+	alert('Zero Results');
+	}
+	
+	$('#prospectus>tbody').empty();
+			$.each(data.SUBJECTS,function(k,v){
+				//console.log(v.TITLE);				
+					$("#prospectus:first-child").append('<tr><td class="clickable" data-th=\"Title\">'+v.TITLE);
+			});
+$('.clickable').click(function(){
+if($(this).css('background-color')=="rgb(238, 238, 238)"){
+	
+	$(this).addClass('SELECTED');
+	$(this).css('background-color','#DFF0D8');
+
+}else{
+
+	$(this).removeClass('SELECTED');
+	$(this).css('background-color','#EEEEEE');
+}
+
+
+})
+	},
+	
+});
+});
+$('#btnEnlist').click(function(){
+var z ={};
+$.each($('.clickable'),function(k,v){
+z[k] = $(this).html();
+})
+console.log(z);
+alert('Subjects Enlisted');
+});
+	
+	$('#preferredTime a').click(function(){
+	time=$(this).text();
+	$('#lblTime').html(time);
+	});
+	$('#clickable').click(function(){
+	$(this).text();
+	});
+	
+	
+	
+    </script>
+
+</html>

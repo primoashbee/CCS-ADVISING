@@ -1,0 +1,488 @@
+[09-Oct-2015 11:57:24 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 11:57:24 Asia/Manila] PHP Notice:  Undefined index: id in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 5
+[09-Oct-2015 11:57:24 Asia/Manila] PHP Notice:  Undefined index: year in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 6
+[09-Oct-2015 11:57:24 Asia/Manila] PHP Notice:  Undefined index: sem in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 7
+[09-Oct-2015 11:57:24 Asia/Manila] PHP Notice:  Undefined index: course in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 8
+[09-Oct-2015 11:57:24 Asia/Manila] PHP Notice:  Undefined index: curr in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 9
+[09-Oct-2015 11:57:24 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 11:57:24 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 11:57:24 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 11:57:24 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 44
+[09-Oct-2015 11:57:24 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 11:57:24 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 48
+[09-Oct-2015 11:57:24 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 50
+[09-Oct-2015 11:57:52 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 11:57:52 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 11:57:52 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 11:57:52 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 11:57:52 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 44
+[09-Oct-2015 11:57:52 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 11:57:52 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 48
+[09-Oct-2015 11:57:52 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 50
+[09-Oct-2015 11:58:00 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 11:58:00 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 11:58:00 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 11:58:00 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 11:58:00 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 44
+[09-Oct-2015 11:58:00 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 11:58:00 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 48
+[09-Oct-2015 11:58:00 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 50
+[09-Oct-2015 11:58:02 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 11:58:02 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 11:58:02 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 11:58:02 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 11:58:02 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 44
+[09-Oct-2015 11:58:02 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 11:58:02 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 48
+[09-Oct-2015 11:58:02 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 50
+[09-Oct-2015 11:59:49 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 11:59:49 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/changepass.php on line 9
+[09-Oct-2015 11:59:49 Asia/Manila] PHP Notice:  Undefined variable: x in /home/gcccsorg/public_html/gc/studs/changepass.php on line 13
+[09-Oct-2015 12:00:35 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:00:35 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/changepass.php on line 9
+[09-Oct-2015 12:00:36 Asia/Manila] PHP Notice:  Undefined variable: x in /home/gcccsorg/public_html/gc/studs/changepass.php on line 13
+[09-Oct-2015 12:02:38 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:02:38 Asia/Manila] PHP Notice:  Undefined index: sem in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 7
+[09-Oct-2015 12:02:38 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:02:38 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 12:02:38 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:02:38 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 44
+[09-Oct-2015 12:02:38 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:02:38 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 48
+[09-Oct-2015 12:02:38 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 50
+[09-Oct-2015 12:02:39 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:02:39 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:02:39 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 12:02:39 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:02:39 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 44
+[09-Oct-2015 12:02:39 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:02:39 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 48
+[09-Oct-2015 12:02:39 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 50
+[09-Oct-2015 12:08:54 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:08:54 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/enlist.php on line 12
+[09-Oct-2015 12:08:55 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/enlist.php on line 12
+[09-Oct-2015 12:08:55 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/enlist.php on line 12
+[09-Oct-2015 12:08:55 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/enlist.php on line 12
+[09-Oct-2015 12:08:55 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/enlist.php on line 18
+[09-Oct-2015 12:09:20 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:09:20 Asia/Manila] PHP Notice:  Undefined index: subjects in /home/gcccsorg/public_html/gc/studs/enlist.php on line 6
+[09-Oct-2015 12:09:20 Asia/Manila] PHP Notice:  Undefined index: sched in /home/gcccsorg/public_html/gc/studs/enlist.php on line 7
+[09-Oct-2015 12:09:20 Asia/Manila] PHP Notice:  Undefined index: id in /home/gcccsorg/public_html/gc/studs/enlist.php on line 8
+[09-Oct-2015 12:09:20 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/enlist.php on line 18
+[09-Oct-2015 12:09:45 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:09:45 Asia/Manila] PHP Notice:  Undefined index: subjects in /home/gcccsorg/public_html/gc/studs/enlist.php on line 6
+[09-Oct-2015 12:09:45 Asia/Manila] PHP Notice:  Undefined index: sched in /home/gcccsorg/public_html/gc/studs/enlist.php on line 7
+[09-Oct-2015 12:09:45 Asia/Manila] PHP Notice:  Undefined index: id in /home/gcccsorg/public_html/gc/studs/enlist.php on line 8
+[09-Oct-2015 12:09:45 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/enlist.php on line 18
+[09-Oct-2015 12:09:49 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:09:49 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/enlist.php on line 12
+[09-Oct-2015 12:09:49 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/enlist.php on line 12
+[09-Oct-2015 12:09:49 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/enlist.php on line 12
+[09-Oct-2015 12:09:49 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/enlist.php on line 12
+[09-Oct-2015 12:09:49 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/enlist.php on line 18
+[09-Oct-2015 12:10:00 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:10:00 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:10:00 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 12:10:00 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:10:00 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 44
+[09-Oct-2015 12:10:00 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:10:00 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 48
+[09-Oct-2015 12:10:00 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 50
+[09-Oct-2015 12:10:02 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:10:02 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:10:02 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 12:10:02 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:10:02 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 44
+[09-Oct-2015 12:10:02 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:10:02 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 48
+[09-Oct-2015 12:10:02 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 50
+[09-Oct-2015 12:10:02 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:10:02 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:10:02 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 12:10:02 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:10:02 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 44
+[09-Oct-2015 12:10:02 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:10:02 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 48
+[09-Oct-2015 12:10:02 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 50
+[09-Oct-2015 12:10:03 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:10:03 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:10:03 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 12:10:03 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:10:03 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 44
+[09-Oct-2015 12:10:03 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:10:03 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 48
+[09-Oct-2015 12:10:03 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 50
+[09-Oct-2015 12:11:19 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:11:19 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:11:19 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:11:19 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 39
+[09-Oct-2015 12:11:19 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:11:19 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 46
+[09-Oct-2015 12:11:19 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 49
+[09-Oct-2015 12:11:19 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 51
+[09-Oct-2015 12:12:01 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:12:01 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:12:01 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:12:01 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 39
+[09-Oct-2015 12:12:01 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:12:01 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 46
+[09-Oct-2015 12:12:01 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 49
+[09-Oct-2015 12:12:01 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 51
+[09-Oct-2015 12:12:11 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:12:11 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:12:11 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 12:12:11 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:12:11 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 44
+[09-Oct-2015 12:12:11 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:12:11 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 48
+[09-Oct-2015 12:12:11 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 50
+[09-Oct-2015 12:12:16 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:12:16 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:12:16 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 12:12:16 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:12:16 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 44
+[09-Oct-2015 12:12:16 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:12:16 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 48
+[09-Oct-2015 12:12:16 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 50
+[09-Oct-2015 12:12:35 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:12:35 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:12:35 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:12:35 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 39
+[09-Oct-2015 12:12:35 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:12:35 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 46
+[09-Oct-2015 12:12:35 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 49
+[09-Oct-2015 12:12:35 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 51
+[09-Oct-2015 12:13:11 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:13:11 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:13:11 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:13:11 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 39
+[09-Oct-2015 12:13:11 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:13:11 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 46
+[09-Oct-2015 12:13:11 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 49
+[09-Oct-2015 12:13:11 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 51
+[09-Oct-2015 12:13:18 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:13:18 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:13:18 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:13:18 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 39
+[09-Oct-2015 12:13:18 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:13:18 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 46
+[09-Oct-2015 12:13:18 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 49
+[09-Oct-2015 12:13:18 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 51
+[09-Oct-2015 12:14:18 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:14:18 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:14:18 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:14:18 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 39
+[09-Oct-2015 12:14:18 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:14:18 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 46
+[09-Oct-2015 12:14:18 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 49
+[09-Oct-2015 12:14:18 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 51
+[09-Oct-2015 12:14:20 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:14:20 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:14:20 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:14:20 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 39
+[09-Oct-2015 12:14:20 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:14:20 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 46
+[09-Oct-2015 12:14:20 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 49
+[09-Oct-2015 12:14:20 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 51
+[09-Oct-2015 12:16:24 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:16:24 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:16:24 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:16:24 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 39
+[09-Oct-2015 12:16:24 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:16:24 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 46
+[09-Oct-2015 12:16:24 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 49
+[09-Oct-2015 12:16:24 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 51
+[09-Oct-2015 12:17:31 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:17:31 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:17:31 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:17:31 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 39
+[09-Oct-2015 12:17:31 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:17:31 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 46
+[09-Oct-2015 12:17:31 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 49
+[09-Oct-2015 12:17:31 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 51
+[09-Oct-2015 12:18:59 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:18:59 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:18:59 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:18:59 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 39
+[09-Oct-2015 12:18:59 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:18:59 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 46
+[09-Oct-2015 12:18:59 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 49
+[09-Oct-2015 12:18:59 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 51
+[09-Oct-2015 12:19:15 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:19:15 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:19:15 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 12:19:15 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:19:15 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 44
+[09-Oct-2015 12:19:15 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:19:15 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 48
+[09-Oct-2015 12:19:15 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 50
+[09-Oct-2015 12:20:05 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:20:05 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:20:05 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 12:20:05 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:20:05 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 44
+[09-Oct-2015 12:20:05 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:20:05 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 48
+[09-Oct-2015 12:20:05 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 50
+[09-Oct-2015 12:20:20 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:20:20 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:20:20 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 12:20:20 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:20:20 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 44
+[09-Oct-2015 12:20:20 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:20:20 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 48
+[09-Oct-2015 12:20:20 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 50
+[09-Oct-2015 12:20:53 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:20:53 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:20:53 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 12:20:53 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:20:53 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 44
+[09-Oct-2015 12:20:53 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:20:53 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 48
+[09-Oct-2015 12:20:53 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 50
+[09-Oct-2015 12:21:03 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:21:03 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:21:03 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 12:21:03 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:21:03 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 44
+[09-Oct-2015 12:21:03 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:21:03 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 48
+[09-Oct-2015 12:21:03 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 50
+[09-Oct-2015 12:21:51 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:21:51 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:21:51 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 12:21:51 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:21:51 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:21:51 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 46
+[09-Oct-2015 12:21:51 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 49
+[09-Oct-2015 12:21:51 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 51
+[09-Oct-2015 12:22:30 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:22:30 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:22:30 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 12:22:30 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:22:30 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:22:30 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 46
+[09-Oct-2015 12:22:30 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 49
+[09-Oct-2015 12:22:30 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 51
+[09-Oct-2015 12:22:55 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:22:55 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:22:55 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 12:22:55 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:22:55 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 45
+[09-Oct-2015 12:22:55 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 46
+[09-Oct-2015 12:22:55 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 49
+[09-Oct-2015 12:22:55 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 51
+[09-Oct-2015 12:23:01 Asia/Manila] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gcccsorg_ccsadvise'@'localhost' (using password: YES) in /home/gcccsorg/public_html/gc/studs/config.php on line 8
+[09-Oct-2015 12:23:01 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 35
+[09-Oct-2015 12:23:01 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 37
+[09-Oct-2015 12:23:01 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 38
+[09-Oct-2015 12:23:01 Asia/Manila] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 46
+[09-Oct-2015 12:23:01 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 47
+[09-Oct-2015 12:23:01 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 50
+[09-Oct-2015 12:23:01 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 52
+[09-Oct-2015 12:25:33 Asia/Manila] PHP Notice:  Undefined index: sem in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 7
+[09-Oct-2015 12:25:33 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 27
+[09-Oct-2015 12:37:34 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:37:34 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:37:41 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:37:41 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:38:14 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:38:14 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:38:29 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:38:29 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:38:33 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:38:33 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:38:33 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 26
+[09-Oct-2015 12:38:35 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:38:35 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:38:39 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:38:39 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:38:42 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:38:42 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:38:44 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:38:44 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:38:51 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:38:51 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:39:03 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:39:03 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:39:40 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:39:40 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:40:09 Asia/Manila] PHP Notice:  Undefined index: year in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 6
+[09-Oct-2015 12:40:09 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:40:09 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:40:09 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 26
+[09-Oct-2015 12:40:11 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:40:11 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:41:15 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:41:15 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:41:23 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:41:23 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:41:30 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:41:30 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:41:30 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 27
+[09-Oct-2015 12:42:40 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:42:40 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:43:18 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:43:18 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:43:20 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:43:20 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:43:27 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:43:27 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:59:53 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:59:53 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 12:59:55 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 12:59:55 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 13:00:11 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 13:00:11 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 13:00:11 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 26
+[09-Oct-2015 13:00:15 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 13:00:15 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[09-Oct-2015 13:00:21 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[09-Oct-2015 13:00:21 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[10-Oct-2015 21:39:47 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[10-Oct-2015 21:39:47 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[10-Oct-2015 23:54:00 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[10-Oct-2015 23:54:00 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[11-Oct-2015 00:50:52 Asia/Manila] PHP Notice:  Undefined index: sem in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 7
+[11-Oct-2015 00:50:52 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[11-Oct-2015 00:50:52 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[11-Oct-2015 00:50:52 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 26
+[11-Oct-2015 00:50:54 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[11-Oct-2015 00:50:54 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[11-Oct-2015 00:51:12 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[11-Oct-2015 00:51:12 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[11-Oct-2015 00:51:24 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[11-Oct-2015 00:51:24 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[11-Oct-2015 00:55:37 Asia/Manila] PHP Notice:  Undefined index: year in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 6
+[11-Oct-2015 00:55:37 Asia/Manila] PHP Notice:  Undefined index: sem in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 7
+[11-Oct-2015 00:55:37 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[11-Oct-2015 00:55:37 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[11-Oct-2015 00:55:37 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 26
+[11-Oct-2015 00:59:47 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[11-Oct-2015 00:59:47 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[11-Oct-2015 01:01:51 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[11-Oct-2015 01:01:51 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[11-Oct-2015 01:01:51 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 26
+[11-Oct-2015 11:57:53 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[11-Oct-2015 11:57:53 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[11-Oct-2015 12:05:27 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[11-Oct-2015 12:05:27 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[11-Oct-2015 12:05:32 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[11-Oct-2015 12:05:32 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[11-Oct-2015 12:05:34 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[11-Oct-2015 12:05:34 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[11-Oct-2015 12:05:36 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[11-Oct-2015 12:05:36 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[11-Oct-2015 12:05:40 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[11-Oct-2015 12:05:40 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[11-Oct-2015 12:45:11 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[11-Oct-2015 12:45:11 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[11-Oct-2015 20:27:12 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[11-Oct-2015 20:27:12 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[12-Oct-2015 00:27:44 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[12-Oct-2015 00:27:44 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[12-Oct-2015 00:38:13 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[12-Oct-2015 00:38:13 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[12-Oct-2015 00:41:04 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[12-Oct-2015 00:41:04 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 13:18:58 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 13:18:58 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 13:19:12 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 13:19:13 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 13:20:56 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 13:20:56 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 13:21:09 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 13:21:09 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 13:21:09 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 13:21:09 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 20:45:19 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 20:45:19 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 20:45:21 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 20:45:21 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 20:45:26 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 20:45:26 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 20:45:29 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 20:45:29 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 20:45:36 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 20:45:36 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 20:45:40 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 20:45:40 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 20:45:43 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 20:45:43 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 20:45:45 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 20:45:45 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 20:45:48 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 20:45:48 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 20:45:49 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 20:45:49 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 20:45:52 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 20:45:52 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 20:45:54 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 20:45:54 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 20:45:56 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 20:45:56 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 20:46:27 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 20:46:27 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 20:49:49 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 20:49:49 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 20:49:50 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 20:49:50 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[13-Oct-2015 20:49:57 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[13-Oct-2015 20:49:57 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[14-Oct-2015 00:52:07 Asia/Manila] PHP Notice:  Undefined index: year in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 6
+[14-Oct-2015 00:52:07 Asia/Manila] PHP Notice:  Undefined index: sem in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 7
+[14-Oct-2015 00:52:07 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[14-Oct-2015 00:52:07 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[14-Oct-2015 00:52:07 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 26
+[14-Oct-2015 00:52:10 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[14-Oct-2015 00:52:10 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[14-Oct-2015 00:52:13 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[14-Oct-2015 00:52:13 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[14-Oct-2015 00:52:16 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[14-Oct-2015 00:52:16 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[14-Oct-2015 00:52:16 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 26
+[14-Oct-2015 00:52:20 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[14-Oct-2015 00:52:20 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[14-Oct-2015 12:51:10 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[14-Oct-2015 12:51:10 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[14-Oct-2015 12:51:11 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[14-Oct-2015 12:51:11 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[14-Oct-2015 16:23:37 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[14-Oct-2015 16:23:37 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[16-Oct-2015 00:41:43 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[16-Oct-2015 00:41:43 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[16-Oct-2015 00:41:48 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[16-Oct-2015 00:41:48 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[16-Oct-2015 00:41:57 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[16-Oct-2015 00:41:57 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[16-Oct-2015 00:42:23 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[16-Oct-2015 00:42:23 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[16-Oct-2015 00:49:54 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[16-Oct-2015 00:49:54 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[16-Oct-2015 00:52:44 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[16-Oct-2015 00:52:44 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[22-Oct-2015 19:03:06 Asia/Manila] PHP Notice:  Undefined index: year in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 6
+[22-Oct-2015 19:03:06 Asia/Manila] PHP Notice:  Undefined index: sem in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 7
+[22-Oct-2015 19:03:06 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[22-Oct-2015 19:03:06 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[22-Oct-2015 19:03:06 Asia/Manila] PHP Warning:  Division by zero in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 26
+[22-Oct-2015 19:03:12 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[22-Oct-2015 19:03:12 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[31-Oct-2015 01:15:36 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[31-Oct-2015 01:15:36 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[31-Oct-2015 01:15:45 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[31-Oct-2015 01:15:45 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[10-Nov-2015 17:43:10 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[10-Nov-2015 17:43:10 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[10-Nov-2015 17:43:23 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[10-Nov-2015 17:43:23 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[15-Nov-2015 21:06:34 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[15-Nov-2015 21:06:34 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[17-Nov-2015 11:56:33 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[17-Nov-2015 11:56:34 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[17-Nov-2015 11:56:44 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[17-Nov-2015 11:56:44 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[17-Nov-2015 11:56:49 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[17-Nov-2015 11:56:49 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14
+[17-Nov-2015 11:56:54 Asia/Manila] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 13
+[17-Nov-2015 11:56:54 Asia/Manila] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/gcccsorg/public_html/gc/studs/giveSubjects.php on line 14

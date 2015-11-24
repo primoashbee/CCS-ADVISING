@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GORDON COLLEGE CCS ADVISING</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.5 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <!-- Theme style -->
+    <link rel="stylesheet" href="css/AdminLTE.min.css">
+  
+    <link rel="stylesheet" href="css/skins/skin-blue.min.css">
+	<link href="css/piechart.css" rel="stylesheet">
+	<style>
+@media only screen and (max-width: 800px) {
+    
+    /* Force table to not be like tables anymore */
+	.no-more-tables table, 
+	.no-more-tables thead, 
+	.no-more-tables tbody, 
+	.no-more-tables th, 
+	.no-more-tables td, 
+	.no-more-tables tr { 
+		display: block; 
+	}
+ 
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#no-more-tables thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	.no-more-tables tr { border: 1px solid #ccc; }
+ 
+	.no-more-tables td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 150%; 
+		white-space: normal;
+		text-align:center;
+	}
+	.no-more-tables th { 
+		/* Behave  like a "row" */
+		display:none;
+	}
+ 
+	.no-more-tables td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 3px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+ 
+	/*
+	Label the data
+	*/
+	.no-more-tables td:before { content: attr(data-title); }
+}
+#ajax-loader{
+	display: none;
+	margin: auto;
+    width: 60%;
+    border:0px solid #8AC007;
+    padding: 10px;
+	 position: relative;
+  top: 50%;
+  transform: translateY(-20%);
+  opacity:0.9;
+}
+	</style>
+  </head>
+  <!--
+  BODY TAG OPTIONS:
+  =================
+  Apply one or more of the following classes to get the
+  desired effect
+  |---------------------------------------------------------|
+  | SKINS         | skin-blue                               |
+  |               | skin-black                              |
+  |               | skin-purple                             |
+  |               | skin-yellow                             |
+  |               | skin-red                                |
+  |               | skin-green                              |
+  |---------------------------------------------------------|
+  |LAYOUT OPTIONS | fixed                                   |
+  |               | layout-boxed                            |
+  |               | layout-top-nav                          |
+  |               | sidebar-collapse                        |
+  |               | sidebar-mini                            |
+  |---------------------------------------------------------|
+  -->
+  <body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+
+      <!-- Main Header -->
+      <header class="main-header">
+
+        <!-- Logo -->
+        <a href="#" class="logo">
+          <!-- mini logo for sidebar mini 50x50 pixels -->
+          <span class="logo-mini"><b>C</b>CS</span>
+          <!-- logo for regular state and mobile devices -->
+          <span class="logo-lg"><b>Gordon College</b>CCS</span>
+        </a>
+
+        <!-- Header Navbar -->
+        <nav class="navbar navbar-static-top" role="navigation">
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>
+          <!-- Navbar Right Menu -->
+          <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+              <!-- Messages: style can be found in dropdown.less-->
+              
+              
+             <!-- Tasks Menu -->
+              <!-- User Account Menu -->
+              <li class="dropdown user user-menu">
+                <!-- Menu Toggle Button -->
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <!-- The user image in the navbar-->
+                  <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+                  <!-- hidden-xs hides the username on small devices so only the image appears. -->
+                  <span class="hidden-xs">Me</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <!-- The user image in the menu -->
+                  <li class="user-header">
+                    <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                    <p class="name">
+                     STUDENT ID
+                    
+                    </p>
+                  </li>
+               
+                  <!-- Menu Footer-->
+                  <li class="user-footer">
+                  
+                    <div class="pull-right">
+                      <a href="#" class="btn btn-default btn-flat logout" >Sign out</a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <!-- Control Sidebar Toggle Button -->
+             
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- Left side column. contains the logo and sidebar -->
+      <aside class="main-sidebar">
+
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+
+          <!-- Sidebar user panel (optional) -->
+          <div class="user-panel">
+            <div class="pull-left image">
+              <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+            </div>
+            <div class="pull-left info">
+              <p class="studentID">STUDENT ID</p>
+              <!-- Status -->
+              <a href="#" class="course">Course</a>
+            </div>
+          </div>	
+
+          <!-- Sidebar Menu -->
+          <ul class="sidebar-menu">
+            <li class="header">Lists</li>
+          
+			 <li class="treeview">
+              <a href="home.html"><i class="fa fa-link"></i> <span>My Stats</span> <i class="fa fa-angle-right pull-right"></i></a>
+             
+            </li>
+			 <li class="treeview">
+              <a href="prospectus.html"><i class="fa fa-link"></i> <span>My Prospectus</span> <i class="fa fa-angle-left pull-right"></i></a>
+              
+            </li>
+			<li class="treeview">
+              <a href="advising.html"><i class="fa fa-link"></i> <span>Advising</span> <i class="fa fa-angle-left pull-right"></i></a>
+             
+            </li>
+			
+			<li class="treeview">
+              <a href="#"><i class="fa fa-link"></i> <span>Accounts</span> <i class="fa fa-angle-left pull-right"></i></a>
+              <ul class="treeview-menu">
+                <li><a href="changepass.html">Change Password</a></li>
+                <li><a href="#" id="btnLogout" class="logout">Log Out</a></li>
+              </ul>
+            </li>
+			
+          </ul><!-- /.sidebar-menu -->
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+          <h1>
+            Subject Lists
+            <small id="program"></small>
+          </h1>
+		  
+		  
+		  
+		  
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+
+         <div class="well">
+					<center><div class="well"><h1>Select Year</h1></div></center>
+            <div class="bs-example bs-example-tabs" data-example-id="togglable-tabs">
+				<ul id="myTabs" class="nav nav-tabs" role="tablist">
+				  <li role="presentation" class="active"><a href="#1st" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="false">First</a></li>
+				  <li role="presentation" class=""><a href="#2nd" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="true">Second</a></li>
+				  <li role="presentation" class=""><a href="#3rd" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="true">Third</a></li>
+				  <li role="presentation" class=""><a href="#4th" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="true">Fourth</a></li>
+				</ul>
+			<div id="myTabContent" class="tab-content">
+			<div role="tabpanel" class="tab-pane fade  active in" id="1st" aria-labelledby="home-tab">
+			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			  
+			  <div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingOne">
+				  <h4 class="panel-title">
+					<a role="button" data-toggle="collapse" data-parent="#accordion" href="#1st1st" aria-expanded="true" aria-controls="collapseOne">
+					  First Year- First Sem
+					</a>
+				  </h4>
+				</div>
+				<div id="1st1st" class="panel-collapse collapse no-more-tables" role="tabpanel" aria-labelledby="headingOne">
+				  <div class="panel-body">
+						<table class="table table-striped">
+						<thead><th>CODE<th>TITLE<th>LEC<th>LAB<th>Grade<th>Remarks</thead>
+							<tbody id="tbl1st1st">
+							</tbody>
+						</table>
+				  </div>
+				</div>
+			  </div>
+			  <div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingTwo">
+				  <h4 class="panel-title">
+					<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#1st2nd" aria-expanded="false" aria-controls="collapseTwo">
+					  First Year- Second Sem
+					</a>
+				  </h4>
+				</div>
+				<div id="1st2nd" class="panel-collapse collapse no-more-tables" role="tabpanel" aria-labelledby="headingOne">
+				  <div class="panel-body">
+					<table class="table table-striped">
+						<thead><th>CODE<th>TITLE<th>LEC<th>LAB<th>Grade<th>Remarks</thead>
+							<tbody id="tbl1st2nd">
+							</tbody>
+					</table>
+				  </div>
+				</div>
+			  </div>
+			   <div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingTwo">
+				  <h4 class="panel-title">
+					<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#1stsum" aria-expanded="false" aria-controls="collapseTwo">
+					  First Year - Summer
+					</a>
+				  </h4>
+				</div>
+				<div id="1stsum" class="panel-collapse collapse no-more-tables" role="tabpanel" aria-labelledby="headingOne">
+				  <div class="panel-body">
+					<table class="table table-striped">
+						<thead><th>CODE<th>TITLE<th>LEC<th>LAB<th>Grade<th>Remarks</thead>
+							<tbody id="tbl1stsum">
+							</tbody>
+					</table>
+				  </div>
+				</div>
+			  </div>
+			</div>     
+			</div>
+			
+			<div role="tabpanel" class="tab-pane fade" id="2nd" aria-labelledby="home-tab">
+			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			  <div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingOne">
+				  <h4 class="panel-title">
+					<a role="button" data-toggle="collapse" data-parent="#accordion" href="#2nd1st" aria-expanded="true" aria-controls="collapseOne">
+					  Second Year- First Sem
+					</a>
+				  </h4>
+				</div>
+				
+				<div id="2nd1st" class="panel-collapse collapse no-more-tables" role="tabpanel" aria-labelledby="headingOne">
+				  <div class="panel-body">
+					<table class="table table-striped">
+						<thead><th>CODE<th>TITLE<th>LEC<th>LAB<th>Grade<th>Remarks</thead>
+							<tbody id="tbl2nd1st">
+							</tbody>
+					</table>
+				  </div>
+				</div>
+			  </div>
+			  <div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingTwo">
+				  <h4 class="panel-title">
+					<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#2nd2nd" aria-expanded="false" aria-controls="collapseTwo">
+					  Second Year- Second Sem
+					</a>
+				  </h4>
+				</div>
+				<div id="2nd2nd" class="panel-collapse collapse no-more-tables" role="tabpanel" aria-labelledby="headingOne">
+				  <div class="panel-body">
+					<table class="table table-striped">
+						<thead><th>CODE<th>TITLE<th>LEC<th>LAB<th>Grade<th>Remarks</thead>
+							<tbody id="tbl2nd2nd">
+							</tbody>
+						</table>
+				  </div>
+				</div>
+			  </div>
+			   <div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingTwo">
+				  <h4 class="panel-title">
+					<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#2ndsum" aria-expanded="false" aria-controls="collapseTwo">
+					  Second Year- Summer
+					</a>
+				  </h4>
+				</div>
+				<div id="2ndsum" class="panel-collapse collapse no-more-tables" role="tabpanel" aria-labelledby="headingOne">
+				  <div class="panel-body">
+					<table class="table table-striped">
+						<thead><th>CODE<th>TITLE<th>LEC<th>LAB<th>Grade<th>Remarks</thead>
+							<tbody id="tbl2ndsum">
+							</tbody>
+					</table>
+				  </div>
+				</div>
+			  </div>
+			</div>     
+			</div>
+			<div role="tabpanel" class="tab-pane fade " id="3rd" aria-labelledby="home-tab">
+			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+			  
+			  <div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingOne">
+				  <h4 class="panel-title">
+					<a role="button" data-toggle="collapse" data-parent="#accordion" href="#3rd1st" aria-expanded="true" aria-controls="collapseOne">
+					  Third Year- First Sem
+					</a>
+				  </h4>
+				</div>
+				<div id="3rd1st" class="panel-collapse collapse no-more-tables" role="tabpanel" aria-labelledby="headingOne">
+				  <div class="panel-body">
+					<table class="table table-striped">
+					<thead><th>CODE<th>TITLE<th>LEC<th>LAB<th>Grade<th>Remarks</thead>
+							<tbody id="tbl3rd1st">
+							</tbody>
+					</table>
+				  </div>
+				</div>
+			  </div>
+			  <div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingTwo">
+				  <h4 class="panel-title">
+					<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#3rd2nd" aria-expanded="false" aria-controls="collapseTwo">
+					  Third Year- Second Sem
+					</a>
+				  </h4>
+				</div>
+				<div id="3rd2nd" class="panel-collapse collapse no-more-tables" role="tabpanel" aria-labelledby="headingOne">
+				  <div class="panel-body">
+					<table class="table table-striped">
+					<thead><th>CODE<th>TITLE<th>LEC<th>LAB<th>Grade<th>Remarks</thead>
+							<tbody id="tbl3rd2nd">
+							</tbody>
+					</table>
+				  </div>
+				</div>
+			  </div>
+			  			   <div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingTwo">
+				  <h4 class="panel-title">
+					<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#3rdsum" aria-expanded="false" aria-controls="collapseTwo">
+					  Third Year - Summer
+					</a>
+				  </h4>
+				</div>
+				<div id="3rdsum" class="panel-collapse collapse no-more-tables" role="tabpanel" aria-labelledby="headingOne">
+				  <div class="panel-body">
+					<table class="table table-striped">
+					<thead><th>CODE<th>TITLE<th>LEC<th>LAB<th>Grade<th>Remarks</thead>
+							<tbody id="tbl3rdsum">
+							</tbody>
+					</table>
+				  </div>
+				</div>
+			  </div>
+			</div>     
+			</div>
+			<div role="tabpanel" class="tab-pane fade" id="4th" aria-labelledby="home-tab">
+			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			  <div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingOne">
+				  <h4 class="panel-title">
+					<a role="button" data-toggle="collapse" data-parent="#accordion" href="#4th1st" aria-expanded="true" aria-controls="collapseOne">
+					  Fourth Year- First Sem
+					</a>
+				  </h4>
+				</div>
+				<div id="4th1st" class="panel-collapse collapse no-more-tables" role="tabpanel" aria-labelledby="headingOne">
+				  <div class="panel-body">
+					<table class="table table-striped">
+						<thead><th>CODE<th>TITLE<th>LEC<th>LAB<th>Grade<th>Remarks</thead>
+							<tbody id="tbl4th1st">
+							</tbody>
+					</table>
+				  </div>
+				</div>
+			  </div>
+			  <div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingTwo">
+				  <h4 class="panel-title">
+					<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#4th2nd" aria-expanded="false" aria-controls="collapseTwo">
+					  Fourth Year- Second Sem
+					</a>
+				  </h4>
+				</div>
+				<div id="4th2nd" class="panel-collapse collapse no-more-tables" role="tabpanel" aria-labelledby="headingOne">
+				  <div class="panel-body">
+					<table class="table table-striped">
+						<thead><th>CODE<th>TITLE<th>LEC<th>LAB<th>Grade<th>Remarks</thead>
+							<tbody id="tbl4th2nd">
+							</tbody>
+					</table>
+				  </div>
+				</div>
+			  </div>
+			   <div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingTwo">
+				  <h4 class="panel-title">
+					<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#4thsum" aria-expanded="false" aria-controls="collapseTwo">
+					  Fourth Year- Summer
+					</a>
+				  </h4>
+				</div>
+				<div id="4thsum" class="panel-collapse collapse no-more-tables" role="tabpanel" aria-labelledby="headingOne">
+				  <div class="panel-body">
+						<table class="table table-striped">
+						<thead><th>CODE<th>TITLE<th>LEC<th>LAB<th>Grade<th>Remarks</thead>
+							<tbody id="tbl4thsummer">
+							</tbody>
+					</table>
+				  </div>
+				</div>
+			  </div>
+			</div>     
+			</div>
+			
+			
+			</div>
+			 
+			 </div>
+						
+		</div>
+		
+						
+									
+
+        <!-- /#page-content-wrapper -->
+
+    </div>
+		 </div>
+
+        </section><!-- /.content -->
+      </div><!-- /.content-wrapper -->
+
+      <!-- Main Footer -->
+        <footer class="main-footer">
+        <!-- To the right -->
+        <div class="pull-right hidden-xs">
+          Anything you want
+        </div>
+        <!-- Default to the left -->
+        <strong>Copyright &copy; 2015 <a href="http://www.facebook.com/primoashbee" target="_blank">Ashbee</a>.</strong> All rights reserved.
+      </footer>
+
+   
+      <div class="control-sidebar-bg"></div>
+    </div><!-- ./wrapper -->
+	<div class="modal fade" id="mdlLogout" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Are you sure?</h4>
+			  </div>
+			  <div class="modal-body">
+				<button type="button" class="btn btn-success" id="logmeout">Yes</button>
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+			  </div>
+			  <div class="modal-footer">
+				
+				<button type="button"  class="btn btn-primary"  data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+    <!-- REQUIRED JS SCRIPTS -->
+
+    <!-- jQuery 2.1.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap 3.3.5 -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/app.min.js"></script>
+    <script src="js/jquery.easypiechart.js"></script>
+   <script>
+   var x
+		$(function(){
+		x = JSON.parse(localStorage.getItem('LISTS'))
+		$('#program').html(x.PROSPECTUS[0].NAME)
+		$('.studentID').html(localStorage.getItem('USERNAME'))
+		$('.course').html(JSON.parse(localStorage.getItem('LISTS')).INFO.COURSE);
+		$('.name').html(JSON.parse(localStorage.getItem('LISTS')).INFO.LNAME+", "+JSON.parse(localStorage.getItem('LISTS')).INFO.FNAME+", "+JSON.parse(localStorage.getItem('LISTS')).INFO.MNAME);
+	
+		$.each(x.PROSPECTUS,function(k,v){
+		//1st 1st
+		if((v.YEAR=='1st')&&(v.SEMESTER=='1st')){
+		$('#tbl1st1st').append('<tr><td>'+v.CODE+'</td><td>'+v.TITLE+'</td><td data-title="LEC">'+v.LEC+'</td><td  data-title="LAB">'+v.LAB+'</td><td data-title="GRADE">'+v.GRADE+'</td><td data-title="REMARKS">'+v.REMARKS+'</td></tr>');
+		}
+		})
+		//1st 2nd
+		$.each(x.PROSPECTUS,function(k,v){
+		if((v.YEAR=='1st')&&(v.SEMESTER=='2nd')){
+		$('#tbl1st2nd').append('<tr><td>'+v.CODE+'</td><td>'+v.TITLE+'</td><td data-title="LEC">'+v.LEC+'</td><td  data-title="LAB">'+v.LAB+'</td><td data-title="GRADE">'+v.GRADE+'</td><td data-title="REMARKS">'+v.REMARKS+'</td></tr>');
+		}
+		})
+		//1st summ for 2011
+		$.each(x.PROSPECTUS,function(k,v){
+		if((v.YEAR=='1st')&&(v.SEMESTER=="summer")){
+		$('#tbl1stsum').append('<tr><td>'+v.CODE+'</td><td>'+v.TITLE+'</td><td data-title="LEC">'+v.LEC+'</td><td  data-title="LAB">'+v.LAB+'</td><td data-title="GRADE">'+v.GRADE+'</td><td data-title="REMARKS">'+v.REMARKS+'</td></tr>');
+		}
+		})
+		//2nd 1st
+		$.each(x.PROSPECTUS,function(k,v){
+		if((v.YEAR=='2nd')&&(v.SEMESTER=='1st')){
+		$('#tbl2nd1st').append('<tr><td>'+v.CODE+'</td><td>'+v.TITLE+'</td><td data-title="LEC">'+v.LEC+'</td><td  data-title="LAB">'+v.LAB+'</td><td data-title="GRADE">'+v.GRADE+'</td><td data-title="REMARKS">'+v.REMARKS+'</td></tr>');
+		}
+		})
+		//2nnd 2nd
+		$.each(x.PROSPECTUS,function(k,v){
+		if((v.YEAR=='2nd')&&(v.SEMESTER=='2nd')){
+		$('#tbl2nd2nd').append('<tr><td>'+v.CODE+'</td><td>'+v.TITLE+'</td><td data-title="LEC">'+v.LEC+'</td><td  data-title="LAB">'+v.LAB+'</td><td data-title="GRADE">'+v.GRADE+'</td><td data-title="REMARKS">'+v.REMARKS+'</td></tr>');
+		}
+		})
+		//2nd summer
+		$.each(x.PROSPECTUS,function(k,v){
+		if((v.YEAR=='2nd')&&(v.SEMESTER=='summer')){
+		$('#tbl2ndsum').append('<tr><td>'+v.CODE+'</td><td>'+v.TITLE+'</td><td data-title="LEC">'+v.LEC+'</td><td  data-title="LAB">'+v.LAB+'</td><td data-title="GRADE">'+v.GRADE+'</td><td data-title="REMARKS">'+v.REMARKS+'</td></tr>');
+		}
+		})//3rd 1st
+		$.each(x.PROSPECTUS,function(k,v){
+		if((v.YEAR=='3rd')&&(v.SEMESTER=='1st')){
+		$('#tbl3rd1st').append('<tr><td>'+v.CODE+'</td><td>'+v.TITLE+'</td><td data-title="LEC">'+v.LEC+'</td><td  data-title="LAB">'+v.LAB+'</td><td data-title="GRADE">'+v.GRADE+'</td><td data-title="REMARKS">'+v.REMARKS+'</td></tr>');
+		}
+		})//3rd 2nd
+		$.each(x.PROSPECTUS,function(k,v){
+		if((v.YEAR=='3rd')&&(v.SEMESTER=='2nd')){
+		$('#tbl3rd2nd').append('<tr><td>'+v.CODE+'</td><td>'+v.TITLE+'</td><td data-title="LEC">'+v.LEC+'</td><td  data-title="LAB">'+v.LAB+'</td><td data-title="GRADE">'+v.GRADE+'</td><td data-title="REMARKS">'+v.REMARKS+'</td></tr>');
+		}
+		})
+		//3rd summ for 2011
+		$.each(x.PROSPECTUS,function(k,v){
+		if((v.YEAR=='3rd')&&(v.SEMESTER=='summer')){
+		$('#tbl3rdsum').append('<tr><td>'+v.CODE+'</td><td>'+v.TITLE+'</td><td data-title="LEC">'+v.LEC+'</td><td  data-title="LAB">'+v.LAB+'</td><td data-title="GRADE">'+v.GRADE+'</td><td data-title="REMARKS">'+v.REMARKS+'</td></tr>');
+		}
+		})
+		//4th 1st
+		$.each(x.PROSPECTUS,function(k,v){
+		if((v.YEAR=='4th')&&(v.SEMESTER=='1st')){
+		$('#tbl4th1st').append('<tr><td>'+v.CODE+'</td><td>'+v.TITLE+'</td><td data-title="LEC">'+v.LEC+'</td><td  data-title="LAB">'+v.LAB+'</td><td data-title="GRADE">'+v.GRADE+'</td><td data-title="REMARKS">'+v.REMARKS+'</td></tr>');
+		}
+		})
+		//4th 2nd
+		$.each(x.PROSPECTUS,function(k,v){
+		if((v.YEAR=='4th')&&(v.SEMESTER=='2nd')){
+		$('#tbl4th2nd').append('<tr><td>'+v.CODE+'</td><td>'+v.TITLE+'</td><td data-title="LEC">'+v.LEC+'</td><td  data-title="LAB">'+v.LAB+'</td><td data-title="GRADE">'+v.GRADE+'</td><td data-title="REMARKS">'+v.REMARKS+'</td></tr>');
+		}
+		})//4th 1st
+		$.each(x.PROSPECTUS,function(k,v){
+		if((v.YEAR=='4th')&&(v.SEMESTER=='summer')){
+		$('#tbl4thsum').append('<tr><td>'+v.CODE+'</td><td>'+v.TITLE+'</td><td data-title="LEC">'+v.LEC+'</td><td  data-title="LAB">'+v.LAB+'</td><td data-title="GRADE">'+v.GRADE+'</td><td data-title="REMARKS">'+v.REMARKS+'</td></tr>');
+		}
+		})
+		})
+			$('.logout').click(function(){
+			$('#mdlLogout').modal('show')
+			})
+			
+	
+	
+		    </script>
+	
+  </body>
+</html>

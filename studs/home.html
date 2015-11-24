@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GORDON COLLEGE CCS ADVISING</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.5 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <!-- Theme style -->
+    <link rel="stylesheet" href="css/AdminLTE.min.css">
+  
+    <link rel="stylesheet" href="css/skins/skin-blue.min.css">
+	<link href="css/piechart.css" rel="stylesheet">
+	<style>
+		.table-body {
+
+    position: absolute;
+}
+#ajax-loader{
+	display: none;
+	margin: auto;
+    width: 60%;
+    border:0px solid #8AC007;
+    padding: 10px;
+	 position: relative;
+  top: 50%;
+  transform: translateY(-20%);
+  opacity:0.9;
+}
+	</style>
+  </head>
+  <!--
+  BODY TAG OPTIONS:
+  =================
+  Apply one or more of the following classes to get the
+  desired effect
+  |---------------------------------------------------------|
+  | SKINS         | skin-blue                               |
+  |               | skin-black                              |
+  |               | skin-purple                             |
+  |               | skin-yellow                             |
+  |               | skin-red                                |
+  |               | skin-green                              |
+  |---------------------------------------------------------|
+  |LAYOUT OPTIONS | fixed                                   |
+  |               | layout-boxed                            |
+  |               | layout-top-nav                          |
+  |               | sidebar-collapse                        |
+  |               | sidebar-mini                            |
+  |---------------------------------------------------------|
+  -->
+  <body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+
+      <!-- Main Header -->
+      <header class="main-header">
+
+        <!-- Logo -->
+        <a href="#" class="logo">
+          <!-- mini logo for sidebar mini 50x50 pixels -->
+          <span class="logo-mini"><b>C</b>CS</span>
+          <!-- logo for regular state and mobile devices -->
+          <span class="logo-lg"><b>Gordon College</b>CCS</span>
+        </a>
+
+        <!-- Header Navbar -->
+        <nav class="navbar navbar-static-top" role="navigation">
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>
+          <!-- Navbar Right Menu -->
+          <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+              <!-- Messages: style can be found in dropdown.less-->
+              
+              
+             <!-- Tasks Menu -->
+              <!-- User Account Menu -->
+              <li class="dropdown user user-menu">
+                <!-- Menu Toggle Button -->
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <!-- The user image in the navbar-->
+                  <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+                  <!-- hidden-xs hides the username on small devices so only the image appears. -->
+                  <span class="hidden-xs " >Me</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <!-- The user image in the menu -->
+                  <li class="user-header">
+                    <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                    <p class="name">
+                     STUDENT ID
+                      
+                    </p>
+                  </li>
+               
+                  <!-- Menu Footer-->
+                  <li class="user-footer">
+                  
+                    <div class="pull-right">
+                      <a href="#" class="btn btn-default btn-flat logout">Sign out</a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <!-- Control Sidebar Toggle Button -->
+             
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- Left side column. contains the logo and sidebar -->
+      <aside class="main-sidebar">
+
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+
+          <!-- Sidebar user panel (optional) -->
+          <div class="user-panel">
+            <div class="pull-left image">
+              <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+            </div>
+            <div class="pull-left info">
+              <p class="studentID">STUDENT ID</p>
+              <!-- Status -->
+              <a href="#" class="course">Course</a>
+            </div>
+          </div>	
+
+          <!-- Sidebar Menu -->
+          <ul class="sidebar-menu">
+            <li class="header">Lists</li>
+          
+			 <li class="treeview">
+              <a href="home.html"><i class="fa fa-link"></i> <span>My Stats</span> <i class="fa fa-angle-right pull-right"></i></a>
+             
+            </li>
+			 <li class="treeview">
+              <a href="prospectus.html"><i class="fa fa-link"></i> <span>My Prospectus</span> <i class="fa fa-angle-left pull-right"></i></a>
+              
+            </li>
+			<li class="treeview">
+              <a href="advising.html"><i class="fa fa-link"></i> <span>Advising</span> <i class="fa fa-angle-left pull-right"></i></a>
+             
+            </li>
+			
+			<li class="treeview">
+              <a href="#"><i class="fa fa-link"></i> <span>Accounts</span> <i class="fa fa-angle-left pull-right"></i></a>
+              <ul class="treeview-menu">
+                <li><a href="changepass.html">Change Password</a></li>
+                <li><a href="#" id="btnLogout" class="logout">Log Out</a></li>
+              </ul>
+            </li>
+			
+          </ul><!-- /.sidebar-menu -->
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+          <h1>
+            My Stats
+            <small>Percentage Status</small>
+          </h1>
+		  
+		  
+		  
+		  
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+
+         <div class="container">
+			 <id="page-content-wrapper">
+            
+				<div class="panel panel-default ">
+                        <div class="panel-heading panel-default">
+							<h3><center>My Stats</center></h3>
+	                    </div>
+						<div class="panel-body">
+					
+						
+						<div class="btn-group" style="">
+							  <button type="button" class="btn btn-success" id="lblYear">Year</button>
+							  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+								<span class="sr-only">Toggle Dropdown</span>
+							  </button>
+							  <ul class="dropdown-menu" id="chooseYear">
+									<li><a href="#" class="list">1st</a></li>
+									<li><a href="#" class="list">2nd</a></li>
+									<li><a href="#" class="list">3rd</a></li>
+									<li><a href="#"class="list">4th</a></li>
+							  </ul>
+							  
+						</div>
+						<div class="btn-group" style="">
+							  <button type="button" class="btn btn-success" id="lblSem">Semester</button>
+							  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+								<span class="sr-only" >Toggle Dropdown</span>
+							  </button>
+							  <ul class="dropdown-menu semester" id="chooseSem">
+									<li><a href="#" class="list">1st</a></li>
+									<li><a href="#"class="list">2nd </a></li>
+									<li><a href="#"class="list">summer</a></li>
+							  </ul>
+						</div>
+						<button type="button" class="btn btn-success" id="btnShowgrades">Submit</button>
+				
+								<div class="iconbox-text">
+								<div class="chart" data-percent="0" id="lblPercent"></div>
+											
+													<h3 class="iconbox-title" id="txtYear"> </h3>
+													<div class="iconbox-desc "id="txtSem"> </div>
+													<h3><span id="percent">0</span> completed</h3>
+													<h4><span id="taken"></span></h4>
+													<h4><span id="total"></span></h4>
+											
+								</div>
+						<div class="loader" id="ajax-loader" style="background-color:transparent">
+							<img src="loaders\loader.gif" style="width:150px;height:150px"\>
+						</div>
+						</div>
+                        <!-- /.panel-body -->
+						
+			</div>
+						<!--Subjects  NOT Taken-->
+						<div class="panel panel-success" style="position:relative">
+							  <!-- Default panel contents -->
+							  
+							  <div class="panel-heading panel-success"><h3><center>SUBJECTS</center></h3></div>
+
+										<div class="panel-body">
+								  <!-- Table -->
+								  
+											<div class="well col-xs-12 col-xs-offset-0 " style="background-color:white;border:white">
+									
+											<div><span class="glyphicon glyphicon-stop" style="color:#DFF0D8"></span><strong><i>&nbsp; &nbsp;Taken</i></strong><span>&nbsp; &nbsp;</span> <span class="glyphicon glyphicon-stop" style="color:#F2DEDE"></span><strong><i>&nbsp; &nbsp;Not Taken</i></strong></div>
+												<table  id=""class="table">
+													<thead>
+													<tr><th>TITLE</thead>
+													<tbody id="prospectus-body">
+												</table>
+
+											</div>
+										</div>
+						</div>
+									
+
+        <!-- /#page-content-wrapper -->
+
+    </div>
+		 </div>
+
+        </section><!-- /.content -->
+		 </div>
+		
+	  
+	  </div><!-- /.content-wrapper -->
+		</section>
+      <!-- Main Footer -->
+	  </div>
+      <footer class="main-footer">
+        <!-- To the right -->
+        <div class="pull-right hidden-xs">
+          Anything you want
+        </div>
+        <!-- Default to the left -->
+        <strong>Copyright &copy; 2015 <a href="http://www.facebook.com/primoashbee" target="_blank">Ashbee</a>.</strong> All rights reserved.
+      </footer>
+
+  
+      <!-- Add the sidebar's background. This div must be placed
+           immediately after the control sidebar -->
+      <div class="control-sidebar-bg"></div>
+    </div><!-- ./wrapper -->
+	<div class="modal fade" id="mdlLogout" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Are you sure?</h4>
+			  </div>
+			  <div class="modal-body">
+				<button type="button" class="btn btn-success" id="logmeout">Yes</button>
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+			  </div>
+			  <div class="modal-footer">
+				
+				<button type="button"  class="btn btn-primary"  data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+    <!-- REQUIRED JS SCRIPTS -->
+
+    <!-- jQuery 2.1.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap 3.3.5 -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/app.min.js"></script>
+    <script src="js/jquery.easypiechart.js"></script>
+   <script>
+		var x,y;
+		var yr,sm;
+		var zz;
+		var obj={}
+	   $(function(){
+	   x  = JSON.parse(localStorage.getItem('LISTS'))
+		$('.studentID').html(localStorage.getItem('USERNAME'))
+		$('.course').html(JSON.parse(localStorage.getItem('LISTS')).INFO.COURSE);
+		$('.name').html(JSON.parse(localStorage.getItem('LISTS')).INFO.LNAME+", "+JSON.parse(localStorage.getItem('LISTS')).INFO.FNAME+", "+JSON.parse(localStorage.getItem('LISTS')).INFO.MNAME);
+		});
+		
+		//functions
+		
+		$('a.list').click(function(e){
+		e.preventDefault();
+		});
+		<!--get year and sem 
+		$('#chooseYear li a').click(function() {
+			yr =$(this).text();
+			$('#lblYear').html(yr);
+		});	
+		$('#chooseSem li a').click(function() {
+				sm =$(this).text();
+				$('#lblSem').html(sm);
+		});
+		-->
+		//showGrades,graphs
+		$('#btnShowgrades').click(function(){
+			var year_selected=yr;
+			var sem_selected=sm;
+			
+			//$('#ajax-loader').show();
+			$("body").css('display,');
+					$.ajax({
+									url:'giveSubjects.php',
+									type:'POST',
+									data:{year:year_selected,sem:sem_selected,id:localStorage.getItem('USERNAME'),course:x.INFO.COURSE,curr:x.INFO.CURRICULUM},
+									dataType:'JSON',
+									success: function(data){
+								
+									zz=data;
+									$("#prospectus-body").empty();
+								/*
+								$.each(data[0].TAKEN,function(k,v){
+									
+									$("#prospectus-body").append("<tr class=\"success\"><td data-th=\"TITLE\">"+v.TITLE);
+									//console.log(v.TITLE);
+									});
+									$.each(data[0].NOT,function(k,v){
+									$("#prospectus-body").append("<tr class=\"danger\"><td data-th=\"TITLE\">"+v.TITLE);
+									//console.log(v.TITLE);
+									});
+							*/		
+							obj=data[0]
+									$.each(obj.INFO,function(k,v){
+											css="danger"
+											if(v.REMARKS=="PASSED"){
+											css="success"
+											}
+											
+									//if(v.SGRADE =='FDA' || v.SGRADE <75 || v.SGRADE =='F'){
+									//}else{
+									
+									//}
+									if(v.REMARKS=="PASSED"){
+									$('#prospectus-body').append('<tr class='+css+'><td data-th="TITLE">'+v.STITLE+'</td></tr>')
+									}else if(v.REMARKS=="NOT TAKEN"){
+									$('#prospectus-body').append('<tr class='+css+'><td data-th="TITLE">'+v.STITLE+'</td></tr>')
+									
+									}
+									
+							})
+								
+								$('#chartPercent').attr('data-percent',parseInt(data[0].PERCENTAGE));
+								$('#percent').html(data[0].PERCENTAGE+"%");
+						
+								$('.chart').easyPieChart({
+										animate: 2000
+								});
+								$('.chart').data('easyPieChart').update(data[0].PERCENTAGE);
+							
+									
+							}
+		
+						});
+					
+		});
+		
+     $("#myTab a").click(function(e){
+    	e.preventDefault();
+    	$(this).tab('show');
+    });
+		$('.logout').click(function(){
+			$('#mdlLogout').modal('show')
+			})
+	
+	
+		    </script>
+	
+  </body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>GC CCS ADVISING</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+	<link href="css/piechart.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body class="grades">
+
+    <div id="wrapper" class="">
+
+		
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand  ">
+                    <a id="studentID">
+                        ID
+                    </a>
+                </li>
+               <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li class="selected grades">
+                    <a href="grades.html">My Grades</a>
+                </li>
+                <li>
+                    <a href="prospectus.html">My Prospectus</a>
+                </li>
+                
+                <li>
+                    <a href="advising.html">Advising</a>
+                </li>
+                <li>
+                    <a id="scriptLogOut">Log out</a>
+                </li>
+              
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+		<nav class="navbar top ">
+	
+				<div class="container-fluid">
+				<button id="btnToggle" type="button" class="btn btn-default" style="margin-left:0px;margin-top:8px;margin-bottom:8px;padding:10px 15px 10px 15px;background-color:#ffffff" aria-label="Justify" style="position:relative"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></button>
+				 
+			   </div>
+		</nav>
+		
+		
+        <!-- Page Content -->
+	
+        <div id="page-content-wrapper">
+            
+           <div class="panel panel-default ">
+                        <div class="panel-heading">
+							<h3>My Grades</h3>
+	                    </div>
+						<div class="panel-body">
+						<div>
+						<div class="btn-group" style="">
+							  <button type="button" class="btn btn-success">Year</button>
+							  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+								<span class="sr-only">Toggle Dropdown</span>
+							  </button>
+							  <ul class="dropdown-menu" id="chooseYear">
+								
+							  </ul>
+							  
+						</div>
+						<div class="btn-group" style="">
+							  <button type="button" class="btn btn-success">Semester</button>
+							  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+								<span class="sr-only" >Toggle Dropdown</span>
+							  </button>
+							  <ul class="dropdown-menu" id="chooseSem">
+								
+							
+							  </ul>
+							  
+						</div>
+							<button type="button" class="btn btn-success" id="btnShowgrades">Submit</button>
+						</div>
+								<div class="iconbox-text">
+											<span class="chart" data-percent="86" style="margin-top:-10px"></span>
+													<h3 class="iconbox-title" id="txtYear"> </h3>
+													<div class="iconbox-desc "id="txtSem"> </div>
+													<h6 id="percent">86%</h6>
+											
+								</div>
+						
+						</div>
+                        <!-- /.panel-body -->
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easypiechart.js"></script>
+	<script>
+	
+	$(function(){
+	//Load Terms in dropdown
+	$.ajax({
+	url:'http://gcccs.org/ccsadvising/giveTerm.php',
+	type:'POST',
+	data:{ID:localStorage.getItem('Username')},
+	dataType:'JSON',
+	success: function(data){
+	$('#chooseYear').append('<li><a href="#">'+data.YEAR_LEVEL+'</a></li>');
+	$('#chooseSem').append('<li><a href="#">'+data.SEMESTER+'</a></li>');
+	$('#txtYear').html(data.YEAR_LEVEL);
+	$('#txtSem').html(data.SEMESTER);
+	}
+	
+	});
+	$('#chooseTerm').append('<li><a href="#">Ashbee</a></li>');
+	//Show Student ID
+	$('#studentID').html(localStorage.getItem('Username'))
+	//Navigation function
+    $("#btnToggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+	//Chart Load
+	 $('.chart').easyPieChart({
+        animate: 2000
+    });
+	//Choose Term
+    $('#chooseTerm li > a').click(function(e){
+	alert((this.innerHTML));
+	})
+	
+	})
+	
+    </script>
+	
+
+</body>
+
+</html>

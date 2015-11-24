@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GORDON COLLEGE CCS ADVISING</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.5 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <!-- Theme style -->
+    <link rel="stylesheet" href="css/AdminLTE.min.css">
+  
+    <link rel="stylesheet" href="css/skins/skin-blue.min.css">
+	<link href="css/piechart.css" rel="stylesheet">
+	<style>
+		.table-body {
+
+    position: absolute;
+}
+#ajax-loader{
+	display: none;
+	margin: auto;
+    width: 60%;
+    border:0px solid #8AC007;
+    padding: 10px;
+	 position: relative;
+  top: 50%;
+  transform: translateY(-20%);
+  opacity:0.9;
+}
+	</style>
+  </head>
+  <!--
+  BODY TAG OPTIONS:
+  =================
+  Apply one or more of the following classes to get the
+  desired effect
+  |---------------------------------------------------------|
+  | SKINS         | skin-blue                               |
+  |               | skin-black                              |
+  |               | skin-purple                             |
+  |               | skin-yellow                             |
+  |               | skin-red                                |
+  |               | skin-green                              |
+  |---------------------------------------------------------|
+  |LAYOUT OPTIONS | fixed                                   |
+  |               | layout-boxed                            |
+  |               | layout-top-nav                          |
+  |               | sidebar-collapse                        |
+  |               | sidebar-mini                            |
+  |---------------------------------------------------------|
+  -->
+  <body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+
+      <!-- Main Header -->
+      <header class="main-header">
+
+        <!-- Logo -->
+        <a href="#" class="logo">
+          <!-- mini logo for sidebar mini 50x50 pixels -->
+          <span class="logo-mini"><b>C</b>CS</span>
+          <!-- logo for regular state and mobile devices -->
+          <span class="logo-lg"><b>Gordon College</b>CCS</span>
+        </a>
+
+        <!-- Header Navbar -->
+        <nav class="navbar navbar-static-top" role="navigation">
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>
+          <!-- Navbar Right Menu -->
+          <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+              <!-- Messages: style can be found in dropdown.less-->
+              
+              
+             <!-- Tasks Menu -->
+              <!-- User Account Menu -->
+              <li class="dropdown user user-menu">
+                <!-- Menu Toggle Button -->
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <!-- The user image in the navbar-->
+                  <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+                  <!-- hidden-xs hides the username on small devices so only the image appears. -->
+                  <span class="hidden-xs " >Me</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <!-- The user image in the menu -->
+                  <li class="user-header">
+                    <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                    <p class="name">
+                     STUDENT ID
+                      
+                    </p>
+                  </li>
+               
+                  <!-- Menu Footer-->
+                  <li class="user-footer">
+                  
+                    <div class="pull-right">
+                      <a href="#" class="btn btn-default btn-flat logout">Sign out</a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <!-- Control Sidebar Toggle Button -->
+             
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- Left side column. contains the logo and sidebar -->
+      <aside class="main-sidebar">
+
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+
+          <!-- Sidebar user panel (optional) -->
+          <div class="user-panel">
+            <div class="pull-left image">
+              <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+            </div>
+            <div class="pull-left info">
+              <p class="studentID">STUDENT ID</p>
+              <!-- Status -->
+              <a href="#" class="course">Course</a>
+            </div>
+          </div>	
+
+          <!-- Sidebar Menu -->
+          <ul class="sidebar-menu">
+            <li class="header">Lists</li>
+          
+			 <li class="treeview">
+              <a href="home.html"><i class="fa fa-link"></i> <span>My Stats</span> <i class="fa fa-angle-right pull-right"></i></a>
+             
+            </li>
+			 <li class="treeview">
+              <a href="prospectus.html"><i class="fa fa-link"></i> <span>My Prospectus</span> <i class="fa fa-angle-left pull-right"></i></a>
+              
+            </li>
+			<li class="treeview">
+              <a href="advising.html"><i class="fa fa-link"></i> <span>Advising</span> <i class="fa fa-angle-left pull-right"></i></a>
+             
+            </li>
+			
+			<li class="treeview">
+              <a href="#"><i class="fa fa-link"></i> <span>Accounts</span> <i class="fa fa-angle-left pull-right"></i></a>
+              <ul class="treeview-menu">
+                <li><a href="changepass.html">Change Password</a></li>
+                <li><a href="#" id="btnLogout" class="logout">Log Out</a></li>
+              </ul>
+            </li>
+			
+          </ul><!-- /.sidebar-menu -->
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+          <h1>
+            My Stats
+            <small>Percentage Status</small>
+          </h1>
+		  
+		  
+		  
+		  
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+
+         <div class="container">
+			 <id="page-content-wrapper">
+            <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Change Password</h3>
+      </div>
+      <div class="panel-body">
+      <input type="password" id="txtpass" placeholder="New password" class="form-control"/>
+	  <input type="password" id="txtpass2" placeholder="Confirm New password" class="form-control"/>
+	  <button class="btn btn-primary" id="btnSubmit" style="width:100%">Change Password</button>
+      </div>
+    </div>
+			
+		 </div>
+
+        </section><!-- /.content -->
+		 </div>
+		
+	  
+	  </div><!-- /.content-wrapper -->
+		</section>
+      <!-- Main Footer -->
+	  </div>
+        <footer class="main-footer">
+        <!-- To the right -->
+        <div class="pull-right hidden-xs">
+          Anything you want
+        </div>
+        <!-- Default to the left -->
+        <strong>Copyright &copy; 2015 <a href="http://www.facebook.com/primoashbee" target="_blank">Ashbee</a>.</strong> All rights reserved.
+      </footer>
+
+  
+      <!-- Add the sidebar's background. This div must be placed
+           immediately after the control sidebar -->
+      <div class="control-sidebar-bg"></div>
+    </div><!-- ./wrapper -->
+
+    <!-- REQUIRED JS SCRIPTS -->
+	<div class="modal fade" id="mdlLogout" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Are you sure?</h4>
+			  </div>
+			  <div class="modal-body">
+				<button type="button" class="btn btn-success" id="logmeout">Yes</button>
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+			  </div>
+			  <div class="modal-footer">
+				
+				<button type="button"  class="btn btn-primary"  data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+    <!-- jQuery 2.1.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap 3.3.5 -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/app.min.js"></script>
+    <script src="js/jquery.easypiechart.js"></script>
+   <script>
+		var x,y;
+	   $(function(){
+		$('.studentID').html(localStorage.getItem('USERNAME'))
+		$('.course').html(JSON.parse(localStorage.getItem('LISTS')).INFO.COURSE);
+		$('.name').html(JSON.parse(localStorage.getItem('LISTS')).INFO.LNAME+", "+JSON.parse(localStorage.getItem('LISTS')).INFO.FNAME+", "+JSON.parse(localStorage.getItem('LISTS')).INFO.MNAME);
+		});
+		$('#btnSubmit').click(function(){
+		var p1,p2;
+		p1= $('#txtpass').val();
+		p2= $('#txtpass2').val();
+		if(p1==p2){
+		
+			$.ajax({
+				url:'changepass.php',
+				type:'POST',
+				dataType:'JSON',
+				data:{pass:p1,id:localStorage.getItem('USERNAME')},
+				success:function(data){
+				alert(data.MSG);
+				console.log(data);
+				},
+				done:function(data){
+				alert(data.MSG);
+			
+				}
+				})
+	
+		}else{
+		alert('Password must match');
+		}
+		})
+		
+		$('.logout').click(function(){
+			$('#mdlLogout').modal('show')
+			})
+	
+		    </script>
+	
+  </body>
+</html>

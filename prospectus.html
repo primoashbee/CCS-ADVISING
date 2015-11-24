@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>GC CCS ADVISING</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body class="prospectus">
+
+    <div id="wrapper" class="">
+
+		
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand  ">
+                    <a id="studentID">
+                        ID
+                    </a>
+                </li>
+                <li >
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="stats.html">My Stats</a>
+                </li>
+                <li class="selected prospectus">
+                    <a href="prospectus.html">My Prospectus</a>
+                </li>
+               
+                <li>
+                    <a href="advising.html">Advising</a>
+                </li>
+                <li>
+                    <a id="scriptLogOut">Log out</a>
+                </li>
+              
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+		<nav class="navbar top ">
+		
+				<div class="container-fluid">
+				<button id="btnToggle" type="button" class="btn btn-default" style="margin-left:0px;margin-top:8px;margin-bottom:8px;padding:10px 15px 10px 15px;background-color:#ffffff" aria-label="Justify" style="position:relative"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></button>
+				 
+			   </div>
+		</nav>
+		
+		
+        <!-- Page Content -->
+		<div class="page-content-wrapper">
+				
+						<div class="well col-xs-10 col-xs-offset-1 panel panel-default ">
+						<div class="panel-heading"	><h1><strong><center>My Prospectus</center></strong></h1>
+						</div>
+						<center>
+						<nav >
+						  <ul class="pagination lead">
+						  	<li><a i href="#"id ="all" class="filter">All</a></li>
+							<li><a href="#"id ="pros1st" class="filter">1st Year</a></li>
+							<li><a  href="#"id ="pros2nd" class="filter">2nd Year</a></li>
+							<li><a  href="#"id ="pros3rd" class="filter">3rd Year</a></li>
+							<li><a i href="#"id ="pros4th" class="filter">4th Year</a></li>
+						  </ul>
+						</nav>
+						</center>
+						<div class="panel-body">
+								<h5 ><strong><i><span id="selectedTerm">All</span></i></strong></h5>
+								<p ><strong><i><span id="displayRow"></span></i></strong></p>
+							<table  id="prospectus"class="table">
+													<thead>
+													<tr><th>TITLE<th>CODE<th>PRE-REQUISITE<th>LEC<th>LAB<th>GRADE</thead>
+													<tbody id="prospectus-body">
+												</table>
+								</div>
+						</div>
+						</div>
+		
+		</div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+  <script src="js/query.dataTables.min.js"></script>
+  
+  <script src="js/dataTables.bootstrap.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+
+    <!-- Menu Toggle Script -->
+    <script>
+	var obj;	
+	function showSubjects(){
+	$.ajax({
+	url:'http://gcccs.org/ccsadvising/showProspectus.php',
+	dataType:'JSON',
+	data:'',
+	success: function(data){
+	obj=data;
+			 for(i=0;i<=data.SUBJECTS.length-1;i++){
+			 if(data.SUBJECTS[i].GRADE===null){
+			 data.SUBJECTS[i].GRADE='';
+			
+			 }
+			 		$("#prospectus > tbody:last-child").append("<tr><td data-th=\"Title\">"+data.SUBJECTS[i].TITLE+"<td data-th=\"Code\">"+data.SUBJECTS[i].CODE+"<td data-th=\"PRE-REQ\">"+data.SUBJECTS[i].PRE+"<td data-th=\"LEC\">"+data.SUBJECTS[i].LEC+"<td data-th=\"LAB\">"+data.SUBJECTS[i].LAB+"<td data-th=\"GRADE\">"+data.SUBJECTS[i].GRADE)
+					
+					}
+			var rows=parseInt(i)-1;
+			$('#displayRow').html('Total Records: '+rows);
+					
+		
+			 
+	//$('#prospectus').DataTable();
+	//responsiveTables();
+	}
+
+	});
+
+}
+	
+	$(function(){
+	
+	$('#studentID').html(localStorage.getItem('Username'));
+//populate prospectus
+
+showSubjects();
+		$("#btnToggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+
+	
+	
+	
+	});
+
+		$('.filter').click(function(e){
+	e.preventDefault();
+	});
+	$('#all').click(function(){
+	
+	$('#selectedTerm').html('All');
+
+		var newobj=obj;
+	var z=0;
+	$('#selectedTerm').html('First Year');
+	$('#prospectus >tbody').empty();
+	$.each(newobj.SUBJECTS,function(k,v){
+		
+		$("#prospectus > tbody:last-child").append("<tr><td data-th=\"Title\">"+v.TITLE+"<td data-th=\"Code\">"+v.CODE+"<td data-th=\"PRE-REQ\">"+v.PRE+"<td data-th=\"LEC\">"+v.LEC+"<td data-th=\"LAB\">"+v.LAB+"<td data-th=\"GRADE\">"+v.GRADE)
+		z++;	
+		
+			})
+				$('#displayRow').html('Total Records: '+z);
+	});
+
+$('#pros1st').click(function(){
+	var newobj=obj;
+	var z=0;
+	$('#selectedTerm').html('First Year');
+	$('#prospectus >tbody').empty();
+	$.each(newobj.SUBJECTS,function(k,v){
+		if(v.YEAR_LEVEL=='1st Year'){
+		$("#prospectus > tbody:last-child").append("<tr><td data-th=\"Title\">"+v.TITLE+"<td data-th=\"Code\">"+v.CODE+"<td data-th=\"PRE-REQ\">"+v.PRE+"<td data-th=\"LEC\">"+v.LEC+"<td data-th=\"LAB\">"+v.LAB+"<td data-th=\"GRADE\">"+v.GRADE)
+		z++;	
+			}
+			})
+				$('#displayRow').html('Total Records: '+z);
+	});
+$('#pros2nd').click(function(){
+	var newobj=obj;
+	var z=0;
+	$('#selectedTerm').html('Second Year');
+	$('#prospectus >tbody').empty();
+	$.each(newobj.SUBJECTS,function(k,v){
+		if(v.YEAR_LEVEL=='2nd Year'){
+		$("#prospectus > tbody:last-child").append("<tr><td data-th=\"Title\">"+v.TITLE+"<td data-th=\"Code\">"+v.CODE+"<td data-th=\"PRE-REQ\">"+v.PRE+"<td data-th=\"LEC\">"+v.LEC+"<td data-th=\"LAB\">"+v.LAB+"<td data-th=\"GRADE\">"+v.GRADE)
+		z++;	
+			}
+			})
+				$('#displayRow').html('Total Records: '+z);
+	});
+$('#pros3rd').click(function(){
+	var newobj=obj;
+	var z=0;
+	$('#selectedTerm').html('Third Year');
+	$('#prospectus >tbody').empty();
+	$.each(newobj.SUBJECTS,function(k,v){
+		if(v.YEAR_LEVEL=='3rd Year'){
+		$("#prospectus > tbody:last-child").append("<tr><td data-th=\"Title\">"+v.TITLE+"<td data-th=\"Code\">"+v.CODE+"<td data-th=\"PRE-REQ\">"+v.PRE+"<td data-th=\"LEC\">"+v.LEC+"<td data-th=\"LAB\">"+v.LAB+"<td data-th=\"GRADE\">"+v.GRADE)
+		z++;	
+			}
+			})
+				$('#displayRow').html('Total Records: '+z);
+	});
+$('#pros4th').click(function(){
+	var newobj=obj;
+	var z=0;
+	$('#selectedTerm').html('Fourth Year');
+	$('#prospectus >tbody').empty();
+	$.each(newobj.SUBJECTS,function(k,v){
+		if(v.YEAR_LEVEL=='4th Year'){
+		$("#prospectus > tbody:last-child").append("<tr><td data-th=\"Title\">"+v.TITLE+"<td data-th=\"Code\">"+v.CODE+"<td data-th=\"PRE-REQ\">"+v.PRE+"<td data-th=\"LEC\">"+v.LEC+"<td data-th=\"LAB\">"+v.LAB+"<td data-th=\"GRADE\">"+v.GRADE)
+		z++;	
+			}
+			})
+				$('#displayRow').html('Total Records: '+z);
+	});
+
+    </script>
+	
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+[10-Oct-2015 23:30:39 Asia/Manila] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/gcccsorg/public_html/gc/login2.php on line 8
+[10-Oct-2015 23:31:14 Asia/Manila] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/gcccsorg/public_html/gc/login2.php on line 8
+[10-Oct-2015 23:32:10 Asia/Manila] PHP Notice:  Undefined variable: mysqli in /home/gcccsorg/public_html/gc/login2.php on line 8
+[10-Oct-2015 23:32:10 Asia/Manila] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcccsorg/public_html/gc/login2.php on line 8
+[10-Oct-2015 23:32:13 Asia/Manila] PHP Notice:  Undefined variable: mysqli in /home/gcccsorg/public_html/gc/login2.php on line 8
+[10-Oct-2015 23:32:13 Asia/Manila] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcccsorg/public_html/gc/login2.php on line 8
+[10-Oct-2015 23:32:35 Asia/Manila] PHP Notice:  Undefined variable: mysqli in /home/gcccsorg/public_html/gc/login2.php on line 8
+[10-Oct-2015 23:32:35 Asia/Manila] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcccsorg/public_html/gc/login2.php on line 8
+[10-Oct-2015 23:34:01 Asia/Manila] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/gcccsorg/public_html/gc/login2.php on line 9
+[10-Oct-2015 23:34:25 Asia/Manila] PHP Notice:  Undefined variable: mysqli in /home/gcccsorg/public_html/gc/login2.php on line 8
+[10-Oct-2015 23:34:25 Asia/Manila] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/gcccsorg/public_html/gc/login2.php on line 8
+[10-Oct-2015 23:35:52 Asia/Manila] PHP Notice:  Undefined variable: mysqli in /home/gcccsorg/public_html/gc/config.php on line 8
+[10-Oct-2015 23:35:52 Asia/Manila] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/gcccsorg/public_html/gc/config.php on line 8
+[10-Oct-2015 23:35:56 Asia/Manila] PHP Notice:  Undefined variable: mysqli in /home/gcccsorg/public_html/gc/config.php on line 8
+[10-Oct-2015 23:35:56 Asia/Manila] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/gcccsorg/public_html/gc/config.php on line 8
+[10-Oct-2015 23:36:02 Asia/Manila] PHP Notice:  Undefined variable: mysqli in /home/gcccsorg/public_html/gc/config.php on line 8
+[10-Oct-2015 23:36:02 Asia/Manila] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/gcccsorg/public_html/gc/config.php on line 8
+[10-Oct-2015 23:36:30 Asia/Manila] PHP Notice:  Undefined variable: mysqli in /home/gcccsorg/public_html/gc/config.php on line 8
+[10-Oct-2015 23:36:30 Asia/Manila] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/gcccsorg/public_html/gc/config.php on line 8
+[10-Oct-2015 23:37:11 Asia/Manila] PHP Notice:  Undefined variable: mysqli in /home/gcccsorg/public_html/gc/config.php on line 8
+[10-Oct-2015 23:37:11 Asia/Manila] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/gcccsorg/public_html/gc/config.php on line 8
+[10-Oct-2015 23:37:22 Asia/Manila] PHP Notice:  Undefined variable: mysqli in /home/gcccsorg/public_html/gc/config.php on line 8
+[10-Oct-2015 23:37:22 Asia/Manila] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/gcccsorg/public_html/gc/config.php on line 8
+[10-Oct-2015 23:40:02 Asia/Manila] PHP Notice:  Undefined index: username in /home/gcccsorg/public_html/gc/login2.php on line 5
+[10-Oct-2015 23:40:02 Asia/Manila] PHP Notice:  Undefined index: password in /home/gcccsorg/public_html/gc/login2.php on line 6
+[10-Oct-2015 23:40:02 Asia/Manila] PHP Notice:  Undefined variable: mysqli in /home/gcccsorg/public_html/gc/login2.php on line 8
+[10-Oct-2015 23:40:02 Asia/Manila] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/gcccsorg/public_html/gc/login2.php on line 8
+[10-Oct-2015 23:41:07 Asia/Manila] PHP Notice:  Undefined index: username in /home/gcccsorg/public_html/gc/login2.php on line 5
+[10-Oct-2015 23:41:07 Asia/Manila] PHP Notice:  Undefined index: password in /home/gcccsorg/public_html/gc/login2.php on line 6
+[10-Oct-2015 23:41:20 Asia/Manila] PHP Notice:  Undefined variable: grades in /home/gcccsorg/public_html/gc/login2.php on line 60
+[10-Oct-2015 23:41:47 Asia/Manila] PHP Notice:  Undefined index: username in /home/gcccsorg/public_html/gc/login2.php on line 5
+[10-Oct-2015 23:41:47 Asia/Manila] PHP Notice:  Undefined index: password in /home/gcccsorg/public_html/gc/login2.php on line 6
+[10-Oct-2015 23:42:09 Asia/Manila] PHP Notice:  Undefined variable: grades in /home/gcccsorg/public_html/gc/login2.php on line 60
+[10-Oct-2015 23:46:47 Asia/Manila] PHP Notice:  Undefined index: username in /home/gcccsorg/public_html/gc/login2.php on line 5
+[10-Oct-2015 23:46:47 Asia/Manila] PHP Notice:  Undefined index: password in /home/gcccsorg/public_html/gc/login2.php on line 6
+[10-Oct-2015 23:48:22 Asia/Manila] PHP Notice:  Undefined index: username in /home/gcccsorg/public_html/gc/login2.php on line 5
+[10-Oct-2015 23:48:22 Asia/Manila] PHP Notice:  Undefined index: password in /home/gcccsorg/public_html/gc/login2.php on line 6
+[10-Oct-2015 23:49:02 Asia/Manila] PHP Notice:  Undefined index: username in /home/gcccsorg/public_html/gc/login2.php on line 5
+[10-Oct-2015 23:49:02 Asia/Manila] PHP Notice:  Undefined index: password in /home/gcccsorg/public_html/gc/login2.php on line 6
+[10-Oct-2015 23:49:47 Asia/Manila] PHP Notice:  Undefined variable: grades in /home/gcccsorg/public_html/gc/login2.php on line 60
+[10-Oct-2015 23:51:36 Asia/Manila] PHP Notice:  Undefined variable: grades in /home/gcccsorg/public_html/gc/login2.php on line 60
+[10-Oct-2015 23:52:07 Asia/Manila] PHP Notice:  Undefined variable: grades in /home/gcccsorg/public_html/gc/login2.php on line 60
+[10-Oct-2015 23:53:49 Asia/Manila] PHP Notice:  Undefined variable: grades in /home/gcccsorg/public_html/gc/login2.php on line 60
+[10-Oct-2015 23:58:03 Asia/Manila] PHP Notice:  Undefined variable: grades in /home/gcccsorg/public_html/gc/login2.php on line 60
+[10-Oct-2015 23:58:12 Asia/Manila] PHP Notice:  Undefined variable: grades in /home/gcccsorg/public_html/gc/login2.php on line 60
+[10-Oct-2015 23:58:36 Asia/Manila] PHP Notice:  Undefined variable: grades in /home/gcccsorg/public_html/gc/login2.php on line 60
+[11-Oct-2015 00:00:50 Asia/Manila] PHP Notice:  Undefined variable: grades in /home/gcccsorg/public_html/gc/login2.php on line 60
+[11-Oct-2015 00:00:56 Asia/Manila] PHP Notice:  Undefined variable: grades in /home/gcccsorg/public_html/gc/login2.php on line 60
+[11-Oct-2015 00:02:43 Asia/Manila] PHP Notice:  Undefined variable: grades in /home/gcccsorg/public_html/gc/login2.php on line 60
+[11-Oct-2015 01:10:57 Asia/Manila] PHP Notice:  Undefined variable: grades in /home/gcccsorg/public_html/gc/login2.php on line 60
+[13-Oct-2015 06:15:34 Asia/Manila] PHP Notice:  Undefined index: username in /home/gcccsorg/public_html/gc/login2.php on line 5
+[13-Oct-2015 06:15:34 Asia/Manila] PHP Notice:  Undefined index: password in /home/gcccsorg/public_html/gc/login2.php on line 6
+[14-Oct-2015 00:51:52 Asia/Manila] PHP Notice:  Undefined variable: grades in /home/gcccsorg/public_html/gc/login2.php on line 60
+[14-Oct-2015 00:53:42 Asia/Manila] PHP Notice:  Undefined variable: grades in /home/gcccsorg/public_html/gc/login2.php on line 60
+[14-Oct-2015 00:53:55 Asia/Manila] PHP Notice:  Undefined index: username in /home/gcccsorg/public_html/gc/login2.php on line 5
+[14-Oct-2015 00:53:55 Asia/Manila] PHP Notice:  Undefined index: password in /home/gcccsorg/public_html/gc/login2.php on line 6
+[14-Oct-2015 00:54:34 Asia/Manila] PHP Notice:  Undefined variable: grades in /home/gcccsorg/public_html/gc/login2.php on line 60
+[14-Oct-2015 01:20:17 Asia/Manila] PHP Notice:  Undefined variable: grades in /home/gcccsorg/public_html/gc/login2.php on line 60
